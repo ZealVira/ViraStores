@@ -1,0 +1,208 @@
+﻿body{
+    overflow:no-content;
+}
+
+.HomeCategoryImg{
+    padding-right:15px;
+}
+
+.HomeCategoryImg:hover{
+    transform:scale(1.1);
+}
+
+.Category {
+    flex-direction: row;
+    display: flex;
+    padding-bottom: 10px;
+    padding-left:30px;
+    padding-right:30px;
+    padding-top: 15px;
+    justify-content: center;
+    font-size: x-small;
+}
+
+.catText{ 
+    padding-left:25px;
+}
+
+.cat-img1 {
+    /*border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+    background-color: #7678b1;*/
+    padding: 7px;
+    width: 18%;
+    height: 20%;
+    margin-left: 30px;
+    text-align: center;
+    margin: 0.98%;
+}
+
+.CategoryBrands {
+    flex-direction: row;
+    display: flex;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    justify-content: space-evenly;
+    font-size: x-small;
+}
+
+
+.brands {
+    height: 30%;
+    width: 14%;
+   justify-content:center;
+}
+
+.but1 {
+    background-color: #05526fcc;
+    margin: 2%;
+    padding: 10px;
+    border-radius: 35px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    font-style: italic;
+    font-family: serif;
+    color: white;
+}
+
+.Quantitybtn {
+    width: 80px;
+    height: 100%;
+    text-align: center;
+    color: white;
+    font-size: 32px;
+    font-family: Inter;
+    font-weight: 700;
+    word-wrap: break-word;
+    border: none;
+    background-color: #0B60B0;
+}
+
+.quantity {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 700;
+    word-wrap: break-word;
+    background-color: #0B60B0;
+    padding-left: 5%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+}
+
+.dealImg {
+    height: 34%;
+    width: 43%;
+    padding-top: 3%;
+    padding-right: 3%;
+    padding-left: 3%;
+    mix-blend-mode: darken;
+}
+
+.quickShopping .cart1 {
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    color: white;
+    word-wrap: break-word;
+    background-color: rgba(4, 31, 96, 0.77);
+    padding-left: 5%;
+    border-radius: 8px;
+}
+
+.quickShopping .cart1:hover{
+    background-color:navy;
+    transform:scale(1.13)
+}
+
+.quickShopping {
+    border-bottom-left-radius: 12%;
+    height: 20%;
+    width: 30%;
+    border-top-right-radius: 12%;
+    padding: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 3%;
+    min-height: 300px;
+    font-size: larger;
+    border: 1.8px solid #1e647d
+}
+
+.headings {
+    background: #76a4b1c9;
+    padding: 0.7rem;
+    align-items: center;
+    z-index: 1000;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,.1);
+    width: 88%;
+    margin-top: 1%;
+}
+
+    .headings span {
+        color: #76a4b1c9
+    }
+
+
+.box{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.container {
+    background-color: #7678b1;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 3%;
+}
+
+.carousel-image {
+    width: 30%;
+    height: 30%;
+}
+
+.prodName {
+    min-height: 48px;
+    min-width: 175px;
+}
+
+.cartButtons{
+    margin-top: 3%;
+}
+
+.info {
+    padding: 17px 40px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: 0;
+    background-color: white;
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: all 0.5s ease;
+}
+
+.info:hover {
+        letter-spacing: 3px;
+        background-color: hsl(261deg 80% 48%);
+        color: hsl(0, 0%, 100%);
+        box-shadow: rgb(93 24 220) 0px 7px 29px 0px;
+}
+
+.info:active {
+        letter-spacing: 3px;
+        background-color: hsl(261deg 80% 48%);
+        color: hsl(0, 0%, 100%);
+        box-shadow: rgb(93 24 220) 0px 0px 0px 0px;
+        transform: translateY(10px);
+        transition: 100ms;
+}
+
+

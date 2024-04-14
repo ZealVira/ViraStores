@@ -1,0 +1,55 @@
+﻿.text{
+    background-color: white;
+    border: 1px solid black; 
+    border-radius: 7px;
+    padding-left:2%;
+    padding: 2%;
+    width:70%; 
+    margin-bottom: 4%;
+    font-size:large;
+}
+
+imgMilk{
+    position:absolute;
+    bottom:1%;
+    height:35%;
+    width:30%;
+
+}
+
+.Registerbutton {
+    width: 50%;
+    height: 55px;
+    margin-top: 4%;
+    background-color: #059DC0;
+    border-radius: 23px;
+    color: white;
+    font-size: large;
+    font-family: Georgia;
+    margin-left: 18px;
+    border: 2px solid black;
+    margin-bottom: 12%;
+    padding:2%;
+}
+
+.head {
+    background-color: #041560;
+    top: -2%;
+    height: 5%;
+    margin: -1%;
+    padding-top: 1%;
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Viner Hand ITC';
+    color: #ffffff;
+}
+
+.button:hover {
+    color: black;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.row{
+    display: table
+}

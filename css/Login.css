@@ -1,0 +1,75 @@
+﻿.login-box {
+    width: 28%;
+    padding: 1.2% ;
+    padding-left: 38px;
+    padding-right: 38px;
+    margin-top: 7%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:3%;
+    background: rgba(255, 255, 254, 0.15); 
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) inset;
+    border-radius: 40px;
+    border: 2px #041560 solid;
+}
+
+.button {
+    width: 80%;
+    height: 25%;
+    margin-top:4%;
+    background-color: #059DC0;
+    border-radius: 23px;
+    color:white;
+    font-size:large;
+    font-family:Georgia;
+    margin-left: 18px;
+    border: 2px solid black;
+    margin-bottom: 12%;    
+}
+
+.button:hover {
+    color: black;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.loginlink{
+    margin-left:55%;
+    
+}
+
+.text{
+    background-color: rgba(4, 31, 96, 0.23);
+    border: 1px solid black; 
+    border-radius: 7px;
+    padding-left:2%;
+    padding: 2%;
+}
+
+@media (max-width: 768px) {
+    /* Adjust styles for screens smaller than 768px width */
+    .head {
+        font-size: 2rem;
+        width: 110%;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Adjust styles for screens smaller than 480px width */
+    .head {
+        font-size: 1.5rem;
+    }
+
+    .text{
+        width: 90%
+    }
+
+    .link{
+        margin-left:50%;
+    }
+
+    .login-box {
+        width: 70%;
+        padding:4%;
+    }
+}

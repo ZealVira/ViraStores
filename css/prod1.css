@@ -1,0 +1,43 @@
+.ProdImage {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 2.5%;
+}
+
+.Quantitybtn {
+    width: 30%;
+    height: 30%;
+    background-color: #041560;
+    border: none;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.6%;
+    margin: 2% 1%;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.quantity {
+    padding: 2.5%;
+    font-size: 2%;
+    display: flex;
+    align-items: center;
+}
+
+    .quantity label {
+        margin-right: 5%;
+        color: #041560;
+    }
+
+.addToCart {
+    background-color: #041560;
+    color: white;
+    padding: 1% 2%;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10%;
+    height: 8%;
+}
